@@ -1,6 +1,8 @@
 import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
+// Icon Imports
+import { HiOutlineBars3 } from 'react-icons/hi2'
 
 const Navbar = () => {
   return (
@@ -38,6 +40,9 @@ const Navbar = () => {
                     </li>
                 </Link>
             </ul>
+            <div className='md:hidden'>
+                <HiOutlineBars3 size={25}/>
+            </div>
         </div>
       </div>
     </div>
