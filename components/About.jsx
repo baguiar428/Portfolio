@@ -1,4 +1,6 @@
-import React from 'react'
+import React from 'react';
+import Image from "next/image";
+
 
 const About = () => {
   return (
@@ -10,6 +12,10 @@ const About = () => {
                 <p>Fill In Bio Here</p>
             </div>
             {/* Place image below */}
+            <Image src='/../public/profilepic.jpg'
+                    alt='Profile Pic'
+                    width='200'
+                    height='150'/>
             <div></div>
         </div>
     </div>
