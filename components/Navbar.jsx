@@ -23,7 +23,7 @@ const Navbar = () => {
                       w-full h-full px-2 2xl:px-16"
       >
         <Image
-          src="/../public/About-logo.png"
+          src="/../public/assets/About_logo.png"
           alt="/"
           width="125"
           height="50"

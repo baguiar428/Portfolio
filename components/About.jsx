@@ -10,13 +10,16 @@ const About = () => {
                 <h2>About Me</h2>
                 {/* Create bio in this div */}
                 <p>Fill In Bio Here</p>
+                {/*Place in link for resume or projects */}
             </div>
             {/* Place image below */}
-            <Image src='/../public/profilepic.jpg'
+            <div className='w-full h-auto m-auto shadow-lg shadow-gray-500 rounded-xl
+                            flex items-center justify-center p-2 hover:scale-105 ease-in duration-300'>
+            <Image className='rounded-xl' src='/../public/assets/profile_pic.jpg'
                     alt='Profile Pic'
                     width='200'
                     height='150'/>
-            <div></div>
+            </div>
         </div>
     </div>
   )
