@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 // Skill Logos
 import css_logo from "public/assets/web_tech_logos/css3.svg";
-import github_logo from "public/assets/web_tech_logos/github.svg";
+import git_logo from "public/assets/web_tech_logos/git.svg";
 import html_logo from "public/assets/web_tech_logos/html5.svg";
 import js_logo from "public/assets/web_tech_logos/javascript.svg";
 import jira_logo from "public/assets/web_tech_logos/jira.svg";
@@ -96,10 +96,10 @@ const Skills = () => {
             <div className="flex items-center flex-col">
               <div className="m-auto">
                 <Image
-                  src={github_logo} width="64" height="64" alt="github logo"/>
+                  src={git_logo} width="64" height="64" alt="github logo"/>
               </div>
               <div className="flex flex-col items-center justify-center">
-                <h3>Github</h3>
+                <h3>Git</h3>
               </div>
             </div>
           </div>
