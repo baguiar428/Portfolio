@@ -1,7 +1,9 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 import contact_me from "../public/assets/contact_me.jpg";
 import {
+  FaAngleDoubleUp,
   FaLinkedin,
   FaGithub,
   FaRegEnvelope,
@@ -111,9 +113,18 @@ const Contact = () => {
                     rows="10"
                   ></textarea>
                 </div>
+                <button className="w-full p-4 mt-4">Send Message</button>
               </form>
             </div>
           </div>
+        </div>
+        <div className="flex justify-center py-12">
+          <Link href='/'>
+            <div className="rounded-full shadow-lg shadow-gray-500
+                                    p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                    <FaAngleDoubleUp size={30}/>
+            </div>
+          </Link>
         </div>
       </div>
     </div>
