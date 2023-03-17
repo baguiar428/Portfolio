@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link"
 import { MdRadioButtonChecked } from "react-icons/md";
 import newRecoupImg from "../public/assets/projects/new_recoup_collage.png";
 
@@ -35,7 +36,7 @@ const newrecoup = () => {
         <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-700 rounded-xl p-4">
           <div className="p-2">
             <p className="text-center font-bold pb-2">Technologies</p>
-            <div>
+            <div className="grid grid-cols-3 md:grid-cols-1">
               <p className="text-black py-2 flex items-center">
                 <MdRadioButtonChecked className="pr-1" />
                 React
@@ -63,6 +64,9 @@ const newrecoup = () => {
             </div>
           </div>
         </div>
+        <Link href='/#projects'>
+            <p className="underline cursor-pointer">Back</p>
+        </Link>
       </div>
     </div>
   );
