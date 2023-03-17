@@ -21,7 +21,7 @@ import yarn_logo from "public/assets/web_tech_logos/yarn.svg";
 
 const Skills = () => {
   return (
-    <div className="w-full lg:h-screen p-2">
+    <div id='skills' className="w-full lg:h-screen p-2">
       <div className="max-w-[1240px] mx-auto flex flex-col justify-center h-full">
         <p>Skills</p>
         <h2>What I can do</h2>
