@@ -12,17 +12,17 @@ const Main = () => {
       <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
         <div>
           <p className="uppercase text-sm tracking-widest">
-            It's OK... You can talk about Bruno
+            It&apos;s OK... You can talk about Bruno
           </p>
-          <h1 className="py-4 text-black">Hi, I'm Bruno</h1>
+          <h1 className="py-4 text-black">Hi, I&apos;'m Bruno</h1>
           <h1 className="py-2">A Full-Stack Developer</h1>
           <p className="py-4 text-black max-w-[70%] m-auto">
-            I'm a full-stack developer with a passion for using technology to
+            I&apos;m a full-stack developer with a passion for using technology to
             solve problems and make life easier...and fun! I have 10+ years of
             experience in IT across multiple industries. I decided to dive into
             software development and graduated from Flatiron School Bootcamp.
-            I've started my journey to level up my skillset and career and i'm
-            excited for what's to come!
+            I&apos;ve started my journey to level up my skillset and career and i&apos;m
+            excited for what&apos;s to come!
           </p>
           <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
             <div
