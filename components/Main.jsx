@@ -14,7 +14,7 @@ const Main = () => {
           <p className="uppercase text-sm tracking-widest">
             It&apos;s OK... You can talk about Bruno
           </p>
-          <h1 className="py-4 text-black">Hi, I&apos;'m Bruno</h1>
+          <h1 className="py-4 text-black">Hi, I&apos;m Bruno</h1>
           <h1 className="py-2">A Full-Stack Developer</h1>
           <p className="py-4 text-black max-w-[70%] m-auto">
             I&apos;m a full-stack developer with a passion for using technology to
