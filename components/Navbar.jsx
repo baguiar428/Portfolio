@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import {useRouter} from "next/router"
+import { useRouter } from "next/router";
 // Icon Imports
 import { HiOutlineBars3, HiOutlineXMark } from "react-icons/hi2";
 import {
@@ -14,8 +14,8 @@ import {
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const [shadow, setShadow] = useState(false);
-  const [navBg, setNavBg] = useState('#ecf0f3');
-  const [linkColor, setLinkColor] = useState('#1f2937');
+  const [navBg, setNavBg] = useState("#ecf0f3");
+  const [linkColor, setLinkColor] = useState("#1f2937");
   const router = useRouter();
 
   const handleNav = () => {
@@ -33,21 +33,19 @@ const Navbar = () => {
     window.addEventListener("scroll", handleShadow);
   }, []);
 
-  useEffect(()=> {
-    if (
-      router.asPath === '/newrecoup'
-    ) {
-      setNavBg('transparent')
-      setLinkColor('#f8f8f8')
+  useEffect(() => {
+    if (router.asPath === "/newrecoup") {
+      setNavBg("transparent");
+      setLinkColor("#f8f8f8");
     } else {
-      setNavBg('#ecf0f3')
-      setLinkColor('#1f2937')
+      setNavBg("#ecf0f3");
+      setLinkColor("#1f2937");
     }
-  },[router])
+  }, [router]);
 
   return (
     <div
-    style={{backgroundColor: `${navBg}`}}
+      style={{ backgroundColor: `${navBg}` }}
       className={
         shadow
           ? "fixed w-full h-20 shadow-xl z-[100]"
@@ -67,7 +65,7 @@ const Navbar = () => {
           />
         </Link>
         <div>
-          <ul style={{color: `${linkColor}`}} className="hidden md:flex">
+          <ul style={{ color: `${linkColor}` }} className="hidden md:flex">
             <Link href="/">
               <li className="ml-10 text-sm uppercase hover:border-b">Home</li>
             </Link>
@@ -107,13 +105,13 @@ const Navbar = () => {
         >
           <div>
             <div className="flex w-full items-center justify-between">
-              <Link href='/'>
-              <Image
-                src="/../public/About-logo.png"
-                width="87"
-                height="35"
-                alt="/"
-              />
+              <Link href="/">
+                <Image
+                  src="/../public/About-logo.png"
+                  width="87"
+                  height="35"
+                  alt="/"
+                />
               </Link>
               <div
                 className="rounded-full shadow-lg shadow-gray-500
@@ -130,19 +128,29 @@ const Navbar = () => {
           <div className="flex flex-col py-4">
             <ul className="uppercase">
               <Link href="/">
-                <li onClick={()=> setNav(false)} className="py-4 text-sm">Home</li>
+                <li onClick={() => setNav(false)} className="py-4 text-sm">
+                  Home
+                </li>
               </Link>
               <Link href="/#about">
-                <li onClick={()=> setNav(false)} className="py-4 text-sm">About</li>
+                <li onClick={() => setNav(false)} className="py-4 text-sm">
+                  About
+                </li>
               </Link>
               <Link href="/#skills">
-                <li onClick={()=> setNav(false)} className="py-4 text-sm">Skills</li>
+                <li onClick={() => setNav(false)} className="py-4 text-sm">
+                  Skills
+                </li>
               </Link>
               <Link href="/#projects">
-                <li onClick={()=> setNav(false)} className="py-4 text-sm">Projects</li>
+                <li onClick={() => setNav(false)} className="py-4 text-sm">
+                  Projects
+                </li>
               </Link>
               <Link href="/#contact">
-                <li onClick={()=> setNav(false)} className="py-4 text-sm">Contact</li>
+                <li onClick={() => setNav(false)} className="py-4 text-sm">
+                  Contact
+                </li>
               </Link>
             </ul>
             <div className="pt-40">

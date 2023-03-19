@@ -12,7 +12,7 @@ import {
 
 const Contact = () => {
   return (
-    <div id='contact' className="w-full lg:h-screen">
+    <div id="contact" className="w-full lg:h-screen">
       <div className="max-w-[1240px] m-auto px-2 py-16 w-full">
         <p className="text-xl tracking-widest uppercase">Contact</p>
         <h2 className="py-4">Get In Touch</h2>
@@ -119,10 +119,12 @@ const Contact = () => {
           </div>
         </div>
         <div className="flex justify-center py-12">
-          <Link href='/'>
-            <div className="rounded-full shadow-lg shadow-gray-500
-                                    p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                    <FaAngleDoubleUp size={30}/>
+          <Link href="/">
+            <div
+              className="rounded-full shadow-lg shadow-gray-500
+                                    p-6 cursor-pointer hover:scale-110 ease-in duration-300"
+            >
+              <FaAngleDoubleUp size={30} />
             </div>
           </Link>
         </div>
