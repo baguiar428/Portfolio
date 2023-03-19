@@ -10,6 +10,7 @@ import {
   FaRegEnvelope,
   //   FaEnvelope, **Undecided on which icon to use
 } from "react-icons/fa";
+import about_Logo from "../public/assets/About_logo.png";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -107,7 +108,7 @@ const Navbar = () => {
             <div className="flex w-full items-center justify-between">
               <Link href="/">
                 <Image
-                  src="/../public/About-logo.png"
+                  src={about_Logo}
                   width="87"
                   height="35"
                   alt="/"
