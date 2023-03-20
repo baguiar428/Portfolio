@@ -59,7 +59,7 @@ const Navbar = () => {
       >
         <Link href="/">
           <Image
-            src="/../public/assets/About_logo.png"
+            src={about_Logo}
             alt="/"
             width="125"
             height="50"
