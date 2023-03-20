@@ -25,24 +25,24 @@ const Main = () => {
             career and i&apos;m excited for what&apos;s to come!
           </p>
           <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
-            <div
+            <a
               className="rounded-full shadow-lg shadow-gray-500
                                     p-6 cursor-pointer hover:scale-110 ease-in duration-300"
+              target="_blank"
+              href="https://www.linkedin.com/in/aguiarbruno/"
+              rel="noopener noreferrer"
             >
-              <a
-                target="_blank"
-                href="https://www.linkedin.com/in/aguiarbruno/"
-                rel="noopener noreferrer"
-              >
-                <FaLinkedin />
-              </a>
-            </div>
-            <div
+              <FaLinkedin />
+            </a>
+            <a
               className="rounded-full shadow-lg shadow-gray-500
                                     p-6 cursor-pointer hover:scale-110 ease-in duration-300"
+              target="_blank"
+              href="https://github.com/baguiar428"
+              rel="noopener noreferrer"
             >
               <FaGithub />
-            </div>
+            </a>
             <div
               className="rounded-full shadow-lg shadow-gray-500
                                     p-6 cursor-pointer hover:scale-110 ease-in duration-300"
