@@ -43,18 +43,24 @@ const Contact = () => {
                 <p className="pt-8 uppercase">Connect With Me</p>
                 {/* Container for icons */}
                 <div className="flex items-center justify-between py-4">
-                  <div
+                  <a
                     className="rounded-full shadow-lg shadow-gray-500
                                     p-6 cursor-pointer hover:scale-110 ease-in duration-300"
+                    target="_blank"
+                    href="https://www.linkedin.com/in/aguiarbruno/"
+                    rel="noopener noreferrer"
                   >
                     <FaLinkedin />
-                  </div>
-                  <div
+                  </a>
+                  <a
                     className="rounded-full shadow-lg shadow-gray-500
                                     p-6 cursor-pointer hover:scale-110 ease-in duration-300"
+                    target="_blank"
+                    href="https://github.com/baguiar428"
+                    rel="noopener noreferrer"
                   >
                     <FaGithub />
-                  </div>
+                  </a>
                   <div
                     className="rounded-full shadow-lg shadow-gray-500
                                     p-6 cursor-pointer hover:scale-110 ease-in duration-300"
