@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import Link from "next/link"
+import Link from "next/link";
 import { MdRadioButtonChecked } from "react-icons/md";
 import newRecoupImg from "../public/assets/projects/new_recoup_collage.png";
 
@@ -31,7 +31,14 @@ const newrecoup = () => {
             custom promotional emails and SMS to multiple clients at a time.
           </p>
           <button className="px-8 py-2 mt-4 mr-8">Demo</button>
-          <button className="px-8 py-2 mt-4">Code</button>
+          {/* <button className="px-8 py-2 mt-4">Code</button> */}
+          <a
+            target="_blank"
+            href="https://github.com/baguiar428/flatiron-capstone"
+            rel="noopener noreferrer"
+          >
+            <button className="px-8 py-2 mt-4">Code</button>
+          </a>
         </div>
         <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-700 rounded-xl p-4">
           <div className="p-2">
@@ -64,8 +71,8 @@ const newrecoup = () => {
             </div>
           </div>
         </div>
-        <Link href='/#projects'>
-            <p className="underline cursor-pointer">Back</p>
+        <Link href="/#projects">
+          <p className="underline cursor-pointer">Back</p>
         </Link>
       </div>
     </div>
