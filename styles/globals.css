@@ -10,7 +10,8 @@ html {
 @layer base {
   body {
     /* custom color format is: bg-[#code] */
-    @apply bg-green-700 text-black tracking-wide 
+    @apply bg-[#6A994E] tracking-wide
+     /* text-black tracking-wide  */
   }
 
   h1, h2, h3, h4, h5, h6 {
@@ -30,8 +31,9 @@ html {
   }
 
   button {
-    @apply shadow-xl shadow-gray-400
+    @apply shadow-xl shadow-[#386641]
            rounded-xl uppercase
-           bg-gradient-to-r from-green-500 to-green-700 text-slate-800
+           bg-[#BC4749] text-[#F2E8CF]
+           /* bg-gradient-to-r from-green-500 to-green-700 text-slate-800 */
   }
 }

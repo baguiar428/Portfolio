@@ -26,7 +26,7 @@ const Main = () => {
           </p>
           <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
             <a
-              className="rounded-full shadow-lg shadow-gray-500
+              className="rounded-full shadow-lg bg-[#BC4749] shadow-[#386641]
                                     p-6 cursor-pointer hover:scale-110 ease-in duration-300"
               target="_blank"
               href="https://www.linkedin.com/in/aguiarbruno/"
@@ -35,7 +35,7 @@ const Main = () => {
               <FaLinkedin />
             </a>
             <a
-              className="rounded-full shadow-lg shadow-gray-500
+              className="rounded-full shadow-lg bg-[#BC4749] shadow-[#386641]
                                     p-6 cursor-pointer hover:scale-110 ease-in duration-300"
               target="_blank"
               href="https://github.com/baguiar428"
@@ -44,7 +44,7 @@ const Main = () => {
               <FaGithub />
             </a>
             <div
-              className="rounded-full shadow-lg shadow-gray-500
+              className="rounded-full shadow-lg bg-[#BC4749] shadow-[#386641]
                                     p-6 cursor-pointer hover:scale-110 ease-in duration-300"
             >
               <FaRegEnvelope />
