@@ -14,7 +14,7 @@ const Main = () => {
           <p className="uppercase text-sm tracking-widest">
             It&apos;s OK... You can talk about Bruno
           </p>
-          <h1 className="py-4 text-black">Hi, I&apos;m Bruno</h1>
+          <h1 className="py-4 text-[#ff6700]">Hi, I&apos;m Bruno</h1>
           <h1 className="py-2">A Full-Stack Developer</h1>
           <p className="py-4 text-black max-w-[70%] m-auto">
             I&apos;m a full-stack developer with a passion for using technology
@@ -26,7 +26,7 @@ const Main = () => {
           </p>
           <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
             <a
-              className="rounded-full shadow-lg bg-[#BC4749] shadow-[#386641]
+              className="rounded-full shadow-lg bg-[#ff6700] shadow-[#656565]
                                     p-6 cursor-pointer hover:scale-110 ease-in duration-300"
               target="_blank"
               href="https://www.linkedin.com/in/aguiarbruno/"
@@ -35,7 +35,7 @@ const Main = () => {
               <FaLinkedin />
             </a>
             <a
-              className="rounded-full shadow-lg bg-[#BC4749] shadow-[#386641]
+              className="rounded-full shadow-lg bg-[#ff6700] shadow-[#656565]
                                     p-6 cursor-pointer hover:scale-110 ease-in duration-300"
               target="_blank"
               href="https://github.com/baguiar428"
@@ -44,7 +44,7 @@ const Main = () => {
               <FaGithub />
             </a>
             <div
-              className="rounded-full shadow-lg bg-[#BC4749] shadow-[#386641]
+              className="rounded-full shadow-lg bg-[#ff6700] shadow-[#656565]
                                     p-6 cursor-pointer hover:scale-110 ease-in duration-300"
             >
               <FaRegEnvelope />

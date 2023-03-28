@@ -25,7 +25,7 @@ const Skills = () => {
         <p>Skills</p>
         <h2>What I can do</h2>
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-          <div className="bg-[#A7C957] p-6 shadow-xl shadow-[#386641] rounded-xl hover:scale-105 ease-in duration-300 text-center">
+          <div className="bg-[#26c485] shadow-[#656565] p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 text-center">
             <div className="flex items-center flex-col">
               <div className="m-auto">
                 <Image
@@ -40,7 +40,7 @@ const Skills = () => {
               </div>
             </div>
           </div>
-          <div className="bg-[#A7C957] p-6 shadow-xl shadow-[#386641] rounded-xl hover:scale-105 ease-in duration-300">
+          <div className="bg-[#26c485] shadow-[#656565] p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="flex items-center flex-col">
               <div className="m-auto">
                 <Image
@@ -55,7 +55,7 @@ const Skills = () => {
               </div>
             </div>
           </div>
-          <div className="bg-[#A7C957] p-6 shadow-xl shadow-[#386641] rounded-xl hover:scale-105 ease-in duration-300">
+          <div className="bg-[#26c485] shadow-[#656565] p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="flex items-center flex-col">
               <div className="m-auto">
                 <Image
@@ -70,7 +70,7 @@ const Skills = () => {
               </div>
             </div>
           </div>
-          <div className="bg-[#A7C957] p-6 shadow-xl shadow-[#386641] rounded-xl hover:scale-105 ease-in duration-300">
+          <div className="bg-[#26c485] shadow-[#656565] p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="flex items-center flex-col">
               <div className="m-auto">
                 <Image src={npm_logo} width="64" height="64" alt="npm logo" />
@@ -80,7 +80,7 @@ const Skills = () => {
               </div>
             </div>
           </div>
-          <div className="bg-[#A7C957] p-6 shadow-xl shadow-[#386641] rounded-xl hover:scale-105 ease-in duration-300">
+          <div className="bg-[#26c485] shadow-[#656565] p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="flex items-center flex-col">
               <div className="m-auto">
                 <Image src={yarn_logo} width="64" height="64" alt="yarn logo" />
@@ -90,7 +90,7 @@ const Skills = () => {
               </div>
             </div>
           </div>
-          <div className="bg-[#A7C957] p-6 shadow-xl shadow-[#386641] rounded-xl hover:scale-105 ease-in duration-300">
+          <div className="bg-[#26c485] shadow-[#656565] p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="flex items-center flex-col">
               <div className="m-auto">
                 <Image
@@ -105,7 +105,7 @@ const Skills = () => {
               </div>
             </div>
           </div>
-          <div className="bg-[#A7C957] p-6 shadow-xl shadow-[#386641] rounded-xl hover:scale-105 ease-in duration-300">
+          <div className="bg-[#26c485] shadow-[#656565] p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="flex items-center flex-col">
               <div className="m-auto">
                 <Image
@@ -120,7 +120,7 @@ const Skills = () => {
               </div>
             </div>
           </div>
-          <div className="bg-[#A7C957] p-6 shadow-xl shadow-[#386641] rounded-xl hover:scale-105 ease-in duration-300">
+          <div className="bg-[#26c485] shadow-[#656565] p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="flex items-center flex-col">
               <div className="m-auto">
                 <Image
@@ -135,7 +135,7 @@ const Skills = () => {
               </div>
             </div>
           </div>
-          <div className="bg-[#A7C957] p-6 shadow-xl shadow-[#386641] rounded-xl hover:scale-105 ease-in duration-300">
+          <div className="bg-[#26c485] shadow-[#656565] p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="flex items-center flex-col">
               <div className="m-auto">
                 <Image
@@ -150,7 +150,7 @@ const Skills = () => {
               </div>
             </div>
           </div>
-          <div className="bg-[#A7C957] p-6 shadow-xl shadow-[#386641] rounded-xl hover:scale-105 ease-in duration-300">
+          <div className="bg-[#26c485] shadow-[#656565] p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="flex items-center flex-col">
               <div className="m-auto">
                 <Image
@@ -165,7 +165,7 @@ const Skills = () => {
               </div>
             </div>
           </div>
-          <div className=" bg-[#A7C957] p-6 shadow-xl shadow-[#386641] rounded-xl hover:scale-105 ease-in duration-300">
+          <div className=" bg-[#26c485] shadow-[#656565] p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="flex items-center flex-col">
               <div className="m-auto">
                 <Image
@@ -180,7 +180,7 @@ const Skills = () => {
               </div>
             </div>
           </div>
-          <div className="bg-[#A7C957] p-6 shadow-xl shadow-[#386641] rounded-xl hover:scale-105 ease-in duration-300">
+          <div className="bg-[#26c485] shadow-[#656565] p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="flex items-center flex-col ">
               <div className="m-auto">
                 <Image src={jira_logo} width="64" height="64" alt="jira logo" />
@@ -190,7 +190,7 @@ const Skills = () => {
               </div>
             </div>
           </div>
-          <div className="bg-[#A7C957] p-6 shadow-xl shadow-[#386641] rounded-xl hover:scale-105 ease-in duration-300">
+          <div className="bg-[#26c485] shadow-[#656565] p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="flex items-center flex-col">
               <div className="m-auto">
                 <Image src={html_logo} width="64" height="64" alt="html logo" />
@@ -200,7 +200,7 @@ const Skills = () => {
               </div>
             </div>
           </div>
-          <div className="bg-[#A7C957] p-6 shadow-xl shadow-[#386641] rounded-xl hover:scale-105 ease-in duration-300">
+          <div className="bg-[#26c485] shadow-[#656565] p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="flex items-center flex-col">
               <div className="m-auto">
                 <Image src={css_logo} width="64" height="64" alt="css logo" />
@@ -210,7 +210,7 @@ const Skills = () => {
               </div>
             </div>
           </div>
-          <div className="bg-[#A7C957] p-6 shadow-xl shadow-[#386641] rounded-xl hover:scale-105 ease-in duration-300">
+          <div className="bg-[#26c485] shadow-[#656565] p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="flex items-center flex-col">
               <div className="m-auto">
                 <Image
@@ -225,7 +225,7 @@ const Skills = () => {
               </div>
             </div>
           </div>
-          <div className="bg-[#A7C957] p-6 shadow-xl shadow-[#386641] rounded-xl hover:scale-105 ease-in duration-300">
+          <div className="bg-[#26c485] shadow-[#656565] p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="flex items-center flex-col">
               <div className="m-auto">
                 <Image

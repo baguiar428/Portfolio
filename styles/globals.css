@@ -10,7 +10,7 @@ html {
 @layer base {
   body {
     /* custom color format is: bg-[#code] */
-    @apply bg-[#6A994E] tracking-wide
+    @apply bg-[#fbfbff] tracking-wide
      /* text-black tracking-wide  */
   }
 
@@ -33,6 +33,6 @@ html {
   button {
     @apply shadow-xl shadow-[#386641]
            rounded-xl uppercase
-           bg-[#BC4749] text-[#F2E8CF]
+           bg-[#ff6700] text-[#fbfbff]
   }
 }

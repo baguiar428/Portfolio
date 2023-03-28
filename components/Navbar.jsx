@@ -15,7 +15,7 @@ import about_Logo from "../public/assets/About_logo.png";
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const [shadow, setShadow] = useState(false);
-  const [navBg, setNavBg] = useState("#F2E8CF");
+  const [navBg, setNavBg] = useState("#26c485");
   const [linkColor, setLinkColor] = useState("#1f2937");
   const router = useRouter();
 
@@ -39,7 +39,7 @@ const Navbar = () => {
       setNavBg("transparent");
       setLinkColor("#f8f8f8");
     } else {
-      setNavBg("#ecf0f3");
+      setNavBg("#26c485");
       setLinkColor("#1f2937");
     }
   }, [router]);
@@ -68,21 +68,21 @@ const Navbar = () => {
         <div>
           <ul style={{ color: `${linkColor}` }} className="hidden md:flex">
             <Link href="/">
-              <li className=" text-[#BC4749] ml-10 text-sm uppercase hover:border-b">Home</li>
+              <li className=" text-[#ff6700] ml-10 text-sm uppercase hover:border-b">Home</li>
             </Link>
             <Link href="/#about">
-              <li className="text-[#BC4749] ml-10 text-sm uppercase hover:border-b">About</li>
+              <li className="text-[#ff6700] ml-10 text-sm uppercase hover:border-b">About</li>
             </Link>
             <Link href="/#skills">
-              <li className="text-[#BC4749] ml-10 text-sm uppercase hover:border-b">Skills</li>
+              <li className="text-[#ff6700] ml-10 text-sm uppercase hover:border-b">Skills</li>
             </Link>
             <Link href="/#projects">
-              <li className="text-[#BC4749] ml-10 text-sm uppercase hover:border-b">
+              <li className="text-[#ff6700] ml-10 text-sm uppercase hover:border-b">
                 Projects
               </li>
             </Link>
             <Link href="/#contact">
-              <li className=" text-[#BC4749] ml-10 text-sm uppercase hover:border-b">
+              <li className=" text-[#ff6700] ml-10 text-sm uppercase hover:border-b">
                 Contact
               </li>
             </Link>
