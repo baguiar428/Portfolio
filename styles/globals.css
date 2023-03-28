@@ -34,6 +34,5 @@ html {
     @apply shadow-xl shadow-[#386641]
            rounded-xl uppercase
            bg-[#BC4749] text-[#F2E8CF]
-           /* bg-gradient-to-r from-green-500 to-green-700 text-slate-800 */
   }
 }
