@@ -32,7 +32,7 @@ const Main = () => {
               href="https://www.linkedin.com/in/aguiarbruno/"
               rel="noopener noreferrer"
             >
-              <FaLinkedin />
+              <FaLinkedin size={32} className="text-[#050517]"/>
             </a>
             <a
               className="rounded-full shadow-lg bg-[#ff6700] shadow-[#656565]
@@ -41,7 +41,7 @@ const Main = () => {
               href="https://github.com/baguiar428"
               rel="noopener noreferrer"
             >
-              <FaGithub />
+              <FaGithub size={32} className="text-[#050517]"/>
             </a>
             <a
               className="rounded-full shadow-lg bg-[#ff6700] shadow-[#656565]
@@ -49,7 +49,7 @@ const Main = () => {
             target="_blank"
             href="https://baguiar428.github.io/"
             rel="noopener noreferrer">
-              <FaBlog />
+              <FaBlog size={32} className="text-[#050517]"/>
             </a>
             {/* Use for later */}
             {/* <div className='rounded-full shadow-lg shadow-gray-500

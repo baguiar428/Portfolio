@@ -32,7 +32,7 @@ html {
 
   button {
     @apply shadow-xl shadow-[#386641]
-           rounded-xl uppercase
+           rounded-xl uppercase text-xl font-extrabold
            bg-[#ff6700] text-[#fbfbff]
   }
 }

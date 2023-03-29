@@ -50,7 +50,7 @@ const Contact = () => {
                     href="https://www.linkedin.com/in/aguiarbruno/"
                     rel="noopener noreferrer"
                   >
-                    <FaLinkedin />
+                    <FaLinkedin size={32} className="text-[#050517]"/>
                   </a>
                   <a
                     className="rounded-full shadow-lg bg-[#ff6700] shadow-[#656565]
@@ -59,13 +59,13 @@ const Contact = () => {
                     href="https://github.com/baguiar428"
                     rel="noopener noreferrer"
                   >
-                    <FaGithub />
+                    <FaGithub size={32} className="text-[#050517]"/>
                   </a>
                   <div
                     className="rounded-full shadow-lg bg-[#ff6700] shadow-[#656565]
                                     p-6 cursor-pointer hover:scale-110 ease-in duration-300"
                   >
-                    <FaRegEnvelope />
+                    <FaRegEnvelope size={32} className="text-[#050517]" />
                   </div>
                   {/* Use for later */}
                   {/* <div className='rounded-full shadow-lg shadow-gray-500
@@ -82,40 +82,40 @@ const Contact = () => {
               <form>
                 <div className="grid md:grid-cols-2 gap-4 w-full py-2">
                   <div className="flex flex-col">
-                    <label className="uppercase text-sm py-2">Name</label>
+                    <label className="uppercase text-lg py-2">Name</label>
                     <input
-                      className="bg-[#fbfbff] border-2 rounded-lg p-3 flex border-gray-300"
+                      className="bg-[#fbfbff] border-2 rounded-lg p-3 flex border-[#656565]"
                       type="text"
                     />
                   </div>
                   <div className="flex flex-col">
-                    <label className="uppercase text-sm py-2">
+                    <label className="uppercase text-lg py-2">
                       Phone Number
                     </label>
                     <input
-                      className="bg-[#fbfbff] border-2 rounded-lg p-3 flex border-gray-300"
+                      className="bg-[#fbfbff] border-2 rounded-lg p-3 flex border-[#656565]"
                       type="text"
                     />
                   </div>
                 </div>
                 <div className="flex flex-col py-2">
-                  <label className="uppercase text-sm py-2">Email</label>
+                  <label className="uppercase text-lg py-2">Email</label>
                   <input
-                    className="bg-[#fbfbff] border-2 rounded-lg p-3 flex border-gray-300"
+                    className="bg-[#fbfbff] border-2 rounded-lg p-3 flex border-[#656565]"
                     type="email"
                   />
                 </div>
                 <div className="flex flex-col py-2">
-                  <label className="uppercase text-sm py-2">Subject</label>
+                  <label className="uppercase text-lg py-2">Subject</label>
                   <input
-                    className="bg-[#fbfbff] border-2 rounded-lg p-3 flex border-gray-300"
+                    className="bg-[#fbfbff] border-2 rounded-lg p-3 flex border-[#656565]"
                     type="text"
                   />
                 </div>
                 <div className="flex flex-col py-2">
-                  <label className="uppercase text-sm py-2">Message</label>
+                  <label className="uppercase text-lg py-2">Message</label>
                   <textarea
-                    className=" bg-[#fbfbff] border-2 rounded-lg p-3 border-gray-300"
+                    className=" bg-[#fbfbff] border-2 rounded-lg p-3 border-[#656565]"
                     rows="10"
                   ></textarea>
                 </div>
