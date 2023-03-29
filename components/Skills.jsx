@@ -84,14 +84,28 @@ const Skills = () => {
           href="https://www.npmjs.com/"
           rel="noopener noreferrer">
             <div className="flex items-center flex-col">
-              <div className="m-auto">
+              <div className="m-auto pt-6 pb-3">
                 <Image src={npm_logo} width="64" height="64" alt="npm logo" />
               </div>
-              <div className="flex flex-col items-center justify-center">
+              <div className="flex flex-col items-center pt-1">
                 <h3>NPM</h3>
               </div>
             </div>
           </a>
+          {/* This is original code can delete when done with alignment
+          <a className="bg-[#26c485] shadow-[#656565] p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 cursor-pointer"
+          target="_blank"
+          href="https://www.npmjs.com/"
+          rel="noopener noreferrer">
+            <div className="flex items-center flex-col">
+              <div className="m-auto">
+                <Image src={npm_logo} width="64" height="64" alt="npm logo" />
+              </div>
+              <div className="flex flex-col items-center">
+                <h3>NPM</h3>
+              </div>
+            </div>
+          </a> */}
           <a className="bg-[#26c485] shadow-[#656565] p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 cursor-pointer"
           target="_blank"
           href="https://yarnpkg.com/"
@@ -110,7 +124,7 @@ const Skills = () => {
           href="https://rubyonrails.org/"
           rel="noopener noreferrer">
             <div className="flex items-center flex-col">
-              <div className="m-auto">
+              <div className="m-auto pt-6 pb-3">
                 <Image
                   src={rails_logo}
                   width="64"
@@ -118,7 +132,7 @@ const Skills = () => {
                   alt="ruby on rails logo"
                 />
               </div>
-              <div className="flex flex-col items-center justify-center">
+              <div className="flex flex-col items-center justify-center pt-1">
                 <h3>Ruby on Rails</h3>
               </div>
             </div>
@@ -199,8 +213,8 @@ const Skills = () => {
           target="_blank"
           href="https://mui.com/"
           rel="noopener noreferrer">
-            <div className="flex items-center flex-col">
-              <div className="m-auto">
+            <div className="flex items-center flex-col py-1">
+              <div className="m-auto ">
                 <Image
                   src={mui_logo}
                   width="64"
@@ -208,7 +222,7 @@ const Skills = () => {
                   alt="Mui logo"
                 />
               </div>
-              <div className="flex flex-col items-center justify-center">
+              <div className="flex flex-col items-center justify-center pt-2">
                 <h3>MUI</h3>
               </div>
             </div>
@@ -218,7 +232,7 @@ const Skills = () => {
           href="https://www.atlassian.com/software/jira"
           rel="noopener noreferrer">
             <div className="flex items-center flex-col ">
-              <div className="m-auto">
+              <div className="m-auto pt-6 pb-3">
                 <Image src={jira_logo} width="64" height="64" alt="jira logo" />
               </div>
               <div className="flex flex-col items-center justify-center">

@@ -2,7 +2,7 @@ import React from "react";
 import {
   FaLinkedin,
   FaGithub,
-  FaRegEnvelope,
+  FaBlog,
   //   FaEnvelope, **Undecided on which icon to use
 } from "react-icons/fa";
 
@@ -43,12 +43,14 @@ const Main = () => {
             >
               <FaGithub />
             </a>
-            <div
+            <a
               className="rounded-full shadow-lg bg-[#ff6700] shadow-[#656565]
                                     p-6 cursor-pointer hover:scale-110 ease-in duration-300"
-            >
-              <FaRegEnvelope />
-            </div>
+            target="_blank"
+            href="https://baguiar428.github.io/"
+            rel="noopener noreferrer">
+              <FaBlog />
+            </a>
             {/* Use for later */}
             {/* <div className='rounded-full shadow-lg shadow-gray-500
                                     p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
