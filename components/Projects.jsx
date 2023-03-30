@@ -6,8 +6,8 @@ const Projects = () => {
   return (
     <div id="projects" className="w-full">
       <div className="max-w-[1240px] mx-auto px-2 py-16">
-        <p>Projects</p>
-        <h2>What I&apos;ve Built</h2>
+        {/* <p className="py-6">Projects</p> */}
+        <h2 className="pt-10 pb-4">What I&apos;ve Built</h2>
         {/* Container for projects */}
         <div className="grid md:grid-cols-2 gap-8">
           <ProjectItem
