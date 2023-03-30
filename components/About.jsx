@@ -11,9 +11,8 @@ const About = () => {
           {/* Create bio in this div */}
           <p>I&apos;m bilingual in English and Portuguese. Besides technology 
             I enjoy adventure, traveling and food. It&apos;s hard to beat sitting down 
-            with friends for some good conversation and food. I&apos;m a father-to-be which
-            has me excited / terrified but I&apos;m ready to take on the new and exciting challenge.
-            My hobbies include tinkering with technology, snowboarding, MotoGP racing, DIY and gardening.
+            with friends for some good conversation and food.
+            My hobbies include tinkering with technology, snowboarding, MotoGP racing, DIY, music and gardening.
           </p>
           {/*Place in link for resume or projects */}
         </div>

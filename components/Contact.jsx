@@ -22,7 +22,8 @@ const Contact = () => {
             <div className="lg:p-4 h-full">
               <div>
                 <Image
-                  className="rounded-xl hover:scale-105 ease-in duration-300"
+                  className="rounded-xl"
+                  //Not sure i want these : hover:scale-105 ease-in duration-300
                   src={contact_me}
                   width="400"
                   height="200"
@@ -35,7 +36,7 @@ const Contact = () => {
                 <h2 className="py-2">Bruno Aguiar</h2>
                 <p>Full Stack Developer</p>
                 <p className="py-4">
-                  I am available for freelance or full-time positions. Contact
+                  I am available for full-stack web, mobile and application development in freelance or full-time positions. Contact
                   me and let&apos;s talk.
                 </p>
               </div>

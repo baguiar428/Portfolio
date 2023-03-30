@@ -17,16 +17,16 @@ const newrecoup = () => {
           alt="New Recoup Background"
         />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
-          <h2 className="py-2">New Recoup</h2>
+          <h2 className="py-2 text-[#26c485]">New Recoup</h2>
           <h3>React JS + Ruby on Rails</h3>
         </div>
       </div>
 
       <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 pt-8">
         <div className="col-span-4">
-          <p>Project</p>
+          {/* <p>Project</p> */}
           <h2>Overview</h2>
-          <p>
+          <p className="py-4">
             Web portal that allows therapists to keep an address book and send
             custom promotional emails and SMS to multiple clients at a time.
           </p>
@@ -40,7 +40,7 @@ const newrecoup = () => {
             <button className="px-8 py-2 mt-4">Code</button>
           </a>
         </div>
-        <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-700 rounded-xl p-4">
+        <div className="col-span-4 md:col-span-1 shadow-xl bg-[#26c485] shadow-[#656565] rounded-xl p-4">
           <div className="p-2">
             <p className="text-center font-bold pb-2">Technologies</p>
             <div className="grid grid-cols-3 md:grid-cols-1">
