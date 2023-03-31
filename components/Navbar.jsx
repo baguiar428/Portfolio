@@ -10,7 +10,7 @@ import {
   FaRegEnvelope,
   //   FaEnvelope, **Undecided on which icon to use
 } from "react-icons/fa";
-import about_Logo from "../public/assets/About_logo.png";
+import about_Logo from "../public/assets/about_logo.svg";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -61,28 +61,28 @@ const Navbar = () => {
           <Image
             src={about_Logo}
             alt="/"
-            width="125"
-            height="50"
+            width="200"
+            height="65"
           />
         </Link>
         <div>
           <ul style={{ color: `${linkColor}` }} className="hidden md:flex">
             <Link href="/">
-              <li className=" text-[#ff6700] ml-10 text-sm uppercase hover:border-b">Home</li>
+              <li className=" text-[#fbfbff] ml-10 text-2xl font-bold uppercase hover:border-b">Home</li>
             </Link>
             <Link href="/#about">
-              <li className="text-[#ff6700] ml-10 text-sm uppercase hover:border-b">About</li>
+              <li className="text-[#fbfbff] ml-10 text-2xl font-bold uppercase hover:border-b">About</li>
             </Link>
             <Link href="/#skills">
-              <li className="text-[#ff6700] ml-10 text-sm uppercase hover:border-b">Skills</li>
+              <li className="text-[#fbfbff] ml-10 text-2xl font-bold uppercase hover:border-b">Skills</li>
             </Link>
             <Link href="/#projects">
-              <li className="text-[#ff6700] ml-10 text-sm uppercase hover:border-b">
+              <li className="text-[#fbfbff] ml-10 text-2xl font-bold uppercase hover:border-b">
                 Projects
               </li>
             </Link>
             <Link href="/#contact">
-              <li className=" text-[#ff6700] ml-10 text-sm uppercase hover:border-b">
+              <li className=" text-[#fbfbff] ml-10 text-2xl font-bold uppercase hover:border-b">
                 Contact
               </li>
             </Link>

@@ -9,7 +9,7 @@ const About = () => {
         <div className="col-span-2">
           <h2>About Me</h2>
           {/* Create bio in this div */}
-          <p>I&apos;m bilingual in English and Portuguese. Besides technology 
+          <p className="pt-4">I&apos;m bilingual in English and Portuguese. Besides technology 
             I enjoy adventure, traveling and food. It&apos;s hard to beat sitting down 
             with friends for some good conversation and food.
             My hobbies include tinkering with technology, snowboarding, MotoGP racing, DIY, music and gardening.

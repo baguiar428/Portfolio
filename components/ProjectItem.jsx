@@ -18,11 +18,11 @@ const ProjectItem = ({
         alt={title}
       />
       <div className="hidden group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]">
-        <h3 className="text-xl tracking-wide text-center">{title}</h3>
+        <h3 className="text-xl tracking-wide text-center text-[#050517]">{title}</h3>
         {/* <p className="text-center">{description}</p> */}
-        <p className="pt-2 pb-4 text-white text-center">{tech}</p>
+        <p className="pt-2 pb-4 text-[#fbfbff] font-bold text-center">{tech}</p>
         <Link href={projectUrl}>
-          <p className="text-center py-3 rounded-lg bg-white text-gray-700 font-bold text-lg cursor-pointer">
+          <p className="text-center py-3 rounded-lg bg-white text-[#656565] font-bold text-lg cursor-pointer">
             More Info
           </p>
         </Link>
