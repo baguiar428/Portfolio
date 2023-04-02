@@ -100,7 +100,7 @@ const Navbar = () => {
         <div
           className={
             nav
-              ? "fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-green-800 p-10 ease-in duration-500"
+              ? "fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#26c485] p-10 ease-in duration-500"
               : "fixed left-[-100%] top-0 p-10 ease-in duration-500"
           }
         >
@@ -109,13 +109,13 @@ const Navbar = () => {
               <Link href="/">
                 <Image
                   src={about_Logo}
-                  width="87"
-                  height="35"
+                  width="130"
+                  height="60"
                   alt="/"
                 />
               </Link>
               <div
-                className="rounded-full shadow-lg shadow-gray-500
+                className="rounded-full shadow-lg bg-[#fbfbff] shadow-[#656565]
                              p-3 cursor-pointer"
                 onClick={handleNav}
               >
