@@ -22,15 +22,12 @@ const Skills = () => {
   return (
     <div id="skills" className="w-full lg:h-screen p-2">
       <div className="max-w-[1240px] mx-auto flex flex-col justify-center h-full">
-        {/* <p>Skills</p> */}
         <h2 className="pb-4">What I can do</h2>
-        {/* <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">  Original, functioning mobile single icon line*/}
-        <div className="flex items-center flex-wrap justify-evenly md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           <a className="bg-[#26c485] shadow-[#656565] p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 text-center cursor-pointer"
           target="_blank"
           href="https://www.ecma-international.org/publications-and-standards/standards/ecma-262/"
           rel="noopener noreferrer">
-            {/* <div className="flex items-center flex-col"> Original, functioning mobile single icon line */}
             <div className="flex items-center flex-col">
               <div className="m-auto">
                 <Image

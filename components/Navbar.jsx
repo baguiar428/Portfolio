@@ -122,59 +122,59 @@ const Navbar = () => {
                 <HiOutlineXMark />
               </div>
             </div>
-            <div className="border-b border-gray-500 my-4">
-              <p className="w-[85%] md:w-[90%] py-4">Let&apos;s Do This</p>
+            <div className="border-b border-[#656565] my-4">
+              <p className="w-[85%] md:w-[90%] py-4 font-extrabold tracking-widest text-[#fbfbff]">Let&apos;s Do This</p>
             </div>
           </div>
           <div className="flex flex-col py-4">
             <ul className="uppercase">
               <Link href="/">
-                <li onClick={() => setNav(false)} className="py-4 text-sm">
+                <li onClick={() => setNav(false)} className="py-4 text-lg font-bold">
                   Home
                 </li>
               </Link>
               <Link href="/#about">
-                <li onClick={() => setNav(false)} className="py-4 text-sm">
+                <li onClick={() => setNav(false)} className="py-4 text-lg font-bold">
                   About
                 </li>
               </Link>
               <Link href="/#skills">
-                <li onClick={() => setNav(false)} className="py-4 text-sm">
+                <li onClick={() => setNav(false)} className="py-4 text-lg font-bold">
                   Skills
                 </li>
               </Link>
               <Link href="/#projects">
-                <li onClick={() => setNav(false)} className="py-4 text-sm">
+                <li onClick={() => setNav(false)} className="py-4 text-lg font-bold">
                   Projects
                 </li>
               </Link>
               <Link href="/#contact">
-                <li onClick={() => setNav(false)} className="py-4 text-sm">
+                <li onClick={() => setNav(false)} className="py-4 text-lg font-bold">
                   Contact
                 </li>
               </Link>
             </ul>
             <div className="pt-40">
-              <p className="uppercase tracking-widest">Let&apos;s Connect</p>
+              <p className="uppercase tracking-widest font-extrabold text-[#fbfbff]">Let&apos;s Connect</p>
               {/* Icons for contacts */}
               <div className="flex items-center justify-between my-4 w-full sm:w-80%">
                 <div
-                  className="rounded-full shadow-lg shadow-gray-500
+                  className="rounded-full shadow-lg bg-[#ff6700] shadow-[#656565]
                                     p-3 cursor-pointer hover:scale-105 ease-in duration-300"
                 >
-                  <FaLinkedin />
+                  <FaLinkedin size={30} className="text-[#050517]"/>
                 </div>
                 <div
-                  className="rounded-full shadow-lg shadow-gray-500
+                  className="rounded-full shadow-lg bg-[#ff6700] shadow-[#656565]
                                     p-3 cursor-pointer hover:scale-105 ease-in duration-300"
                 >
-                  <FaGithub />
+                  <FaGithub size={30} className="text-[#050517]" />
                 </div>
                 <div
-                  className="rounded-full shadow-lg shadow-gray-500
+                  className="rounded-full shadow-lg bg-[#ff6700] shadow-[#656565]
                                     p-3 cursor-pointer hover:scale-105 ease-in duration-300"
                 >
-                  <FaRegEnvelope />
+                  <FaRegEnvelope size={30} className="text-[#050517]" />
                 </div>
               </div>
             </div>

@@ -128,7 +128,7 @@ const Contact = () => {
         <div className="flex justify-center py-12">
           <Link href="/">
             <div
-              className="rounded-full shadow-lg shadow-gray-500
+              className="rounded-full shadow-lg shadow-[#656565]
                                     p-6 cursor-pointer hover:scale-110 ease-in duration-300"
             >
               <FaAngleDoubleUp size={30} />
