@@ -11,12 +11,12 @@ const Main = () => {
     <div id="home" className="w-full h-screen text-center">
       <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
         <div>
-          <p className="uppercase text-sm tracking-widest">
+          <p className="uppercase text-md tracking-widest">
             It&apos;s OK... You can talk about Bruno
           </p>
-          <h1 className="py-4 text-[#ff6700]">Hi, I&apos;m Bruno</h1>
+          <h1 className="py-4 text-[#ff6700] tracking-wider">Hi, I&apos;m Bruno</h1>
           <h1 className="py-2">A Full-Stack Developer</h1>
-          <p className="py-4 text-black max-w-[70%] m-auto">
+          <p className="py-4 text-[#050517] max-w-[70%] m-auto">
             I&apos;m a full-stack developer with a passion for using technology
             to solve problems while making life easier...and fun! I have 10+ years
             of experience in IT across multiple industries. I decided to dive
