@@ -110,7 +110,7 @@ const Navbar = () => {
                 <Image
                   src={about_Logo}
                   width="130"
-                  height="60"
+                  height="65"
                   alt="/"
                 />
               </Link>
@@ -119,7 +119,7 @@ const Navbar = () => {
                              p-3 cursor-pointer"
                 onClick={handleNav}
               >
-                <HiOutlineXMark />
+                <HiOutlineXMark size={16} className="text-[#050517]" />
               </div>
             </div>
             <div className="border-b border-[#656565] my-4">
@@ -154,7 +154,7 @@ const Navbar = () => {
                 </li>
               </Link>
             </ul>
-            <div className="pt-40">
+            <div className="pt-4">
               <p className="uppercase tracking-widest font-extrabold text-[#fbfbff]">Let&apos;s Connect</p>
               {/* Icons for contacts */}
               <div className="flex items-center justify-between my-4 w-full sm:w-80%">
