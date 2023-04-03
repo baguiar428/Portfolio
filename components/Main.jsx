@@ -11,7 +11,7 @@ const Main = () => {
     <div id="home" className="w-full h-screen text-center">
       <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
         <div>
-          <p className="text-[#050517] uppercase text-base tracking-widest">
+          <p className="pt-6 text-[#050517] uppercase tracking-widest">
             It&apos;s OK... You can talk about Bruno
           </p>
           <h1 className="py-4 text-[#ff6700] tracking-wider">Hi, I&apos;m Bruno</h1>
