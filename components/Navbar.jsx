@@ -158,18 +158,24 @@ const Navbar = () => {
               <p className="uppercase tracking-widest font-extrabold text-[#fbfbff]">Let&apos;s Connect</p>
               {/* Icons for contacts */}
               <div className="flex items-center justify-between my-4 w-full sm:w-80%">
-                <div
+                <a
                   className="rounded-full shadow-lg bg-[#ff6700] shadow-[#656565]
                                     p-3 cursor-pointer hover:scale-105 ease-in duration-300"
+                                    target="_blank"
+                                    href="https://www.linkedin.com/in/aguiarbruno/"
+                                    rel="noopener noreferrer"
                 >
                   <FaLinkedin size={30} className="text-[#050517]"/>
-                </div>
-                <div
+                </a>
+                <a
                   className="rounded-full shadow-lg bg-[#ff6700] shadow-[#656565]
                                     p-3 cursor-pointer hover:scale-105 ease-in duration-300"
+                                    target="_blank"
+                                    href="https://github.com/baguiar428"
+                                    rel="noopener noreferrer"
                 >
                   <FaGithub size={30} className="text-[#050517]" />
-                </div>
+                </a>
                 <div
                   className="rounded-full shadow-lg bg-[#ff6700] shadow-[#656565]
                                     p-3 cursor-pointer hover:scale-105 ease-in duration-300"
