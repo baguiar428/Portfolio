@@ -70,12 +70,14 @@ const Contact = () => {
                   >
                     <FaGithub size={32} className="text-[#050517]"/>
                   </a>
-                  <div
+                  <a
                     className="rounded-full shadow-lg bg-[#ff6700] shadow-[#656565]
                                     p-6 cursor-pointer hover:scale-110 ease-in duration-300"
+                  //Copy email to clipboard after clicking icon
+                  onClick={() =>  navigator.clipboard.writeText('b.aguiar428@gmail.com')}
                   >
                     <FaRegEnvelope size={32} className="text-[#050517]" />
-                  </div>
+                  </a>
                   {/* Use for later */}
                   {/* <div className='rounded-full shadow-lg shadow-gray-500
                                     p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
@@ -89,10 +91,11 @@ const Contact = () => {
           <div className="col-span-3 w-full h-auto shadow-xl bg-[#26c485] shadow-[#656565] rounded-xl lg:p-4">
             <div className="p-4">
               <form 
-              onSubmit={handleSubmit}>
+              // onSubmit={handleSubmit}
+              >
                 <div className="grid md:grid-cols-2 gap-4 w-full py-2">
                   <div className="flex flex-col">
-                    <label className="font-bold text-lg py-2">NAME <span class="text-red-500 font-bold">* = Field Required</span></label>
+                    <label className="font-bold text-lg py-2">NAME <span className="text-red-500 font-bold">* = Field Required</span></label>
                     <input
                       className="bg-[#fbfbff] border-2 rounded-lg p-3 flex border-[#656565]"
                       type="text"
