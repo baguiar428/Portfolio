@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 import Image from "next/image";
 import Link from "next/link";
 import contact_me from "../public/assets/contact_me.jpg";
@@ -11,6 +11,14 @@ import {
 } from "react-icons/fa";
 
 const Contact = () => {
+
+  // State for Contact Form
+  const [fullname, setFullname] = useState("");
+  const [phone, setPhone] = useState("");
+  const [email, setEmail] = useState("");
+  const [subject, setSubject] = useState("");
+  const [message, setMessage] = useState("");
+
   return (
     <div id="contact" className="w-full lg:h-screen">
       <div className="max-w-[1240px] m-auto px-2 py-16 w-full">
@@ -80,44 +88,70 @@ const Contact = () => {
           {/* Right */}
           <div className="col-span-3 w-full h-auto shadow-xl bg-[#26c485] shadow-[#656565] rounded-xl lg:p-4">
             <div className="p-4">
-              <form>
+              <form 
+              onSubmit={handleSubmit}>
                 <div className="grid md:grid-cols-2 gap-4 w-full py-2">
                   <div className="flex flex-col">
-                    <label className="uppercase text-lg py-2">Name <span class="text-red-500">*</span></label>
+                    <label className="font-bold text-lg py-2">NAME <span class="text-red-500 font-bold">* = Field Required</span></label>
                     <input
                       className="bg-[#fbfbff] border-2 rounded-lg p-3 flex border-[#656565]"
                       type="text"
+                      name="fullname"
+                      value={fullname}
+                      onChange={(e) => {
+                        setFullname(e.target.value);
+                      }}
                     />
                   </div>
                   <div className="flex flex-col">
-                    <label className="uppercase text-lg py-2">
+                    <label className="uppercase font-bold text-lg py-2">
                       Phone Number
                     </label>
                     <input
                       className="bg-[#fbfbff] border-2 rounded-lg p-3 flex border-[#656565]"
-                      type="text"
+                      type="tel"
+                      name="phone"
+                      value={phone}
+                      onChange={(e) => {
+                        setPhone(e.target.value);
+                      }}
                     />
                   </div>
                 </div>
                 <div className="flex flex-col py-2">
-                  <label className="uppercase text-lg py-2">Email <span class="text-red-500">*</span></label>
+                  <label className="uppercase font-bold text-lg py-2">Email <span class="text-red-500">*</span></label>
                   <input
                     className="bg-[#fbfbff] border-2 rounded-lg p-3 flex border-[#656565]"
                     type="email"
+                    name="email"
+                    value={email}
+                    onChange={(e) => {
+                      setEmail(e.target.value);
+                    }}
                   />
                 </div>
                 <div className="flex flex-col py-2">
-                  <label className="uppercase text-lg py-2">Subject <span class="text-red-500">*</span></label>
+                  <label className="uppercase font-bold text-lg py-2">Subject <span class="text-red-500">*</span></label>
                   <input
                     className="bg-[#fbfbff] border-2 rounded-lg p-3 flex border-[#656565]"
                     type="text"
+                    name="subject"
+                    value={subject}
+                    onChange={(e) => {
+                      setSubject(e.taget.value);
+                    }}
                   />
                 </div>
                 <div className="flex flex-col py-2">
-                  <label className="uppercase text-lg py-2">Message <span class="text-red-500">*</span></label>
+                  <label className="uppercase font-bold text-lg py-2">Message <span class="text-red-500">*</span></label>
                   <textarea
                     className=" bg-[#fbfbff] border-2 rounded-lg p-3 border-[#656565]"
                     rows="10"
+                    name="message"
+                    value={message}
+                    onChange={(e) => {
+                      setMessage(e.target.value);
+                    }}
                   ></textarea>
                 </div>
                 <button className="w-full p-4 mt-4">Send Message</button>
