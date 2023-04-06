@@ -9,7 +9,7 @@ const About = () => {
         <div className="col-span-2">
           <h2 className="tracking-widest text-[#050517]">About Me</h2>
           {/* Create bio in this div */}
-          <p className="pt-4 text-lg text-[#050517]">I&apos;m bilingual &#40;English and Portuguese	&#41; and a dual citizen of the United States and Portugal &#40;EU&#41;.
+          <p className="pt-4 text-lg text-[#050517]">I&apos;m bilingual &#40;English and Portuguese&#41; and a dual citizen of the United States and Portugal &#40;EU&#41;.
           I enjoy adventure, traveling and food. My hobbies include tinkering with technology, snowboarding, motorsports, DIY, camping, music and gardening.
           </p>
           {/*Place in link for resume or projects */}

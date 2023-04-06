@@ -22,7 +22,7 @@ const Main = () => {
             of experience in IT across multiple industries. I decided to dive
             into software development and graduated from the Flatiron School
             Software Engineering program / bootcamp. I&apos;ve started my journey to level up my skillset and
-            career and i&apos;m excited for what&apos;s to come!
+            career and I&apos;m excited for what&apos;s to come!
           </p>
           <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
             <a
