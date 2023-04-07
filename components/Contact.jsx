@@ -49,7 +49,7 @@ const Contact = () => {
                 </p>
               </div>
               <div>
-                <p className="pt-8 uppercase">Connect With Me</p>
+                <p className="pt-8 uppercase font-bold">Connect With Me</p>
                 {/* Container for icons */}
                 <div className="flex items-center justify-between py-4">
                   <a
@@ -122,7 +122,7 @@ const Contact = () => {
                   </div>
                 </div>
                 <div className="flex flex-col py-2">
-                  <label className="uppercase font-bold text-lg py-2">Email <span class="text-red-500">*</span></label>
+                  <label className="uppercase font-bold text-lg py-2">Email <span className="text-red-500">*</span></label>
                   <input
                     className="bg-[#fbfbff] border-2 rounded-lg p-3 flex border-[#656565]"
                     type="email"
@@ -134,7 +134,7 @@ const Contact = () => {
                   />
                 </div>
                 <div className="flex flex-col py-2">
-                  <label className="uppercase font-bold text-lg py-2">Subject <span class="text-red-500">*</span></label>
+                  <label className="uppercase font-bold text-lg py-2">Subject <span className="text-red-500">*</span></label>
                   <input
                     className="bg-[#fbfbff] border-2 rounded-lg p-3 flex border-[#656565]"
                     type="text"
@@ -146,7 +146,7 @@ const Contact = () => {
                   />
                 </div>
                 <div className="flex flex-col py-2">
-                  <label className="uppercase font-bold text-lg py-2">Message <span class="text-red-500">*</span></label>
+                  <label className="uppercase font-bold text-lg py-2">Message <span className="text-red-500">*</span></label>
                   <textarea
                     className=" bg-[#fbfbff] border-2 rounded-lg p-3 border-[#656565]"
                     rows="10"
