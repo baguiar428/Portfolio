@@ -74,7 +74,8 @@ const Contact = () => {
                     className="rounded-full shadow-lg bg-[#ff6700] shadow-[#656565]
                                     p-6 cursor-pointer hover:scale-110 ease-in duration-300"
                   //Copy email to clipboard after clicking icon
-                  onClick={() =>  navigator.clipboard.writeText('b.aguiar428@gmail.com')}
+                  // onClick={() =>  navigator.clipboard.writeText('b.aguiar428@gmail.com')}
+                  href="mailto:b.aguiar428@gmail.com" data-initialized="true"
                   >
                     <FaRegEnvelope size={32} className="text-[#050517]" />
                   </a>
